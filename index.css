@@ -420,7 +420,7 @@ button:hover {
 }
 
 
-@media screen and (max-width: 768px) {
+ @media screen and (max-width: 768px) {
   .Home .header {
     flex-direction: column;
   }
@@ -447,3 +447,129 @@ button:hover {
   }
   
 }
+ @media screen  and (max-width:424px){
+  .Home .header {
+    flex-direction: column;
+  }
+  .image h1{
+    padding-top: 20px;
+  }
+  .image{
+    width: 100%;
+  }
+  .PropertyDetails {
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+  }
+  .details {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .Home .header img {
+    width: 100%;
+  }
+  .card img {
+    width: 100%;
+  }
+  .Contact{
+    width:100%
+  }
+  .map{
+    width:100%
+  }
+  
+} 
+@media screen  and (min-width: 640px) {
+  .Home .header {
+    flex-direction: column;
+  }
+  .PropertyDetails {
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+  }
+  .details {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .Home .header img {
+    width: 100%;
+  }
+  .card img {
+    width: 100%;
+  }
+  .Contact{
+    width:100%
+  }
+  .map{
+    width:100%
+  }
+  
+} */
+  
+/* @media screen  and (min-width:1024px){
+  .Home .header {
+    flex-direction: column;
+  }
+  .PropertyDetails {
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+  }
+  .details {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .Home .header img {
+    width: 100%;
+  }
+  .card img {
+    width: 100%;
+  }
+  .Contact{
+    width:100%
+  }
+  .map{
+    width:100%
+  }
+  
+} */
+#click{
+  display: none;
+}
+label{
+  display: none;
+  cursor: pointer;
+  margin-right: 0px;
+}
+@media screen and (max-width: 768px){
+  label{
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    font-size: 20px;
+    color: rgb(255, 111, 0);
+  }
+  .hero .navbar nav ul{
+    position: absolute;
+    top: 110px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ddd;
+    right: 0px;
+    display: none;
+  }
+  #click:checked ~ nav ul{
+    display: flex;
+  }
+  .hero .navbar nav ul li{
+    width: 100%;
+    text-align: center;
+    padding: 5px 0px;
+  }
+  
+}
+  
